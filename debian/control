@@ -1,0 +1,15 @@
+
+Source: bulk-optimize-cli
+Section: utils
+Priority: optional
+Maintainer: Kürşat Kömürcü <kursatkomurcu@gmail.com>
+Build-Depends: debhelper (>= 12), nodejs (>= 14)
+Standards-Version: 4.5.0
+Homepage: https://github.com/kursatkomurcu/bulk-optimize-cli
+
+Package: bulk-optimize-cli
+Architecture: all
+Depends: nodejs (>= 14), ghostscript, libvips-tools
+Description: Bulk Optimize CLI — losslessly compress images and PDFs
+ A command-line tool to scan directories and optimize JPEG, PNG, WebP, TIFF, and PDF files.
+
