@@ -93,16 +93,6 @@ bulk-optimize /path/to/images -o /path/to/output
 bulk-optimize /path/to/images -r -v
 ```
 
-## Configuration
-Create a `.bulkoptimizerc` file in your home directory:
-```json
-{
-  "defaultQuality": 85,
-  "createBackup": true,
-  "defaultFormats": ["jpg", "png", "webp", "tiff"],
-  "outputDir": "./optimized"
-}
-```
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
