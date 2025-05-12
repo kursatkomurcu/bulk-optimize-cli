@@ -24,7 +24,7 @@
 
 ## Installation
 ```bash
-npm install -g bulk-optimize-cli
+sudo apt install ./bulk-optimize-cli_1.0.0-1_all.deb
 ```
 
 ## Usage
