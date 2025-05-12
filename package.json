@@ -1,0 +1,20 @@
+{
+  "name": "bulk-optimize-cli",
+  "version": "1.0.0",
+  "description": "Losslessly compress JPEG/PNG/WebP images and PDFs in bulk",
+  "type": "module",
+  "bin": {
+    "bulk-optimize": "./bin/bulk-optimize.js"
+  },
+  "dependencies": {
+    "commander": "^x.x.x",
+    "sharp": "^x.x.x",
+    "chalk": "^x.x.x"
+  },
+
+  "scripts": {
+  "start": "node bin/bulk-optimize.js",
+  "lint": "eslint src",
+  "test": "echo \"No tests yet\"" 
+  }
+}
